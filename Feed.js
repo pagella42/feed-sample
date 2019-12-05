@@ -1,11 +1,11 @@
 import { StyleSheet, Text, View, RefreshControl, FlatList} from 'react-native';
 import React, { Component } from 'react';
 import axios from 'axios'
-import Premium from './Premium';
-import Free from './Free';
-import Sponsor from './Sponsor';
-import FeedHeader from './FeedHeader';
-import Details from './Details';
+import Premium from './feed-components/Premium';
+import Free from './feed-components/Free';
+import Sponsor from './feed-components/Sponsor';
+import FeedHeader from './feed-components/FeedHeader';
+import Details from './feed-components/Details';
 import { isIphoneX } from 'react-native-iphone-x-helper'
 import Footer from '../../components/Footer';
 
